@@ -1,5 +1,9 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TestIgnatov.Data;
+using TestIgnatov.Models;
+using TheSchizoGamblers.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +12,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ProductsDbContext>(options =>
  options.UseMySql(builder.Configuration.GetConnectionString("ProductConString"), new MySqlServerVersion(new Version(10, 0, 1))));
+
+builder.Services.AddDefaultIdentity<Users>(options => options.SignIn.RequireConfirmedAccount = false)
+.AddRoles<IdentityRole>().AddEntityFrameworkStores<ProductsDbContext>();
 
 var app = builder.Build();
 
@@ -30,5 +37,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+RolesSeed.Seed(app);
 
 app.Run();
