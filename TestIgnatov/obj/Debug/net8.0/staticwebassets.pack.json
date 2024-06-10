@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/css/products/addForm.css"
     },
     {
+      "Id": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/css/products/login.css",
+      "PackagePath": "staticwebassets/css/products/login.css"
+    },
+    {
       "Id": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/css/products/products.css",
       "PackagePath": "staticwebassets/css/products/products.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/images/wolves.jpg",
+      "PackagePath": "staticwebassets/images/wolves.jpg"
     },
     {
       "Id": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/js/site.js",

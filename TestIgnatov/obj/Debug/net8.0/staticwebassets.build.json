@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T1Kce4c4nIwKc71XmVOyj0k4citJkBEE+jm6dpIWpzk=",
+  "Hash": "9erZ/GCmeQYxk60w+L4ehh1A9zKG9Mv4mKqNslZppsg=",
   "Source": "TestIgnatov",
   "BasePath": "_content/TestIgnatov",
   "Mode": "Default",
@@ -1214,6 +1214,25 @@
       "OriginalItemSpec": "wwwroot/css/products/addForm.css"
     },
     {
+      "Identity": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/css/products/login.css",
+      "SourceId": "TestIgnatov",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/",
+      "BasePath": "_content/TestIgnatov",
+      "RelativePath": "css/products/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/products/login.css"
+    },
+    {
       "Identity": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/css/products/products.css",
       "SourceId": "TestIgnatov",
       "SourceType": "Discovered",
@@ -1269,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/images/wolves.jpg",
+      "SourceId": "TestIgnatov",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/",
+      "BasePath": "_content/TestIgnatov",
+      "RelativePath": "images/wolves.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/wolves.jpg"
     },
     {
       "Identity": "/home/Dian/Documents/School/IgnatovASPWeb/TestIgnatov/wwwroot/js/site.js",
